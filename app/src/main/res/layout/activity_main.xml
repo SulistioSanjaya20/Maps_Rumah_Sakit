@@ -15,8 +15,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Pilih Daftar Rumah Sakit"
+            android:text="Pilih Tujuan yang ingin dicari"
             android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
             />
 
         <LinearLayout
@@ -37,14 +39,14 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/rsumum" />
+                    android:src="@drawable/rs_khusus" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Rumah Sakit Umum"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/holo_purple" />
 
             </LinearLayout>
 
@@ -60,14 +62,14 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/rskhusus" />
+                    android:src="@drawable/rs" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Rumah Sakit Khusus"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/holo_purple" />
 
             </LinearLayout>
 
@@ -83,14 +85,14 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/puskesmas" />
+                    android:src="@drawable/puskesmas_logo" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Puskesmas"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/holo_purple" />
 
             </LinearLayout>
 
